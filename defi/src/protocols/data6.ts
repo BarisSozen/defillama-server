@@ -2418,11 +2418,11 @@ const data6: Protocol[] = [
     name: "Hashlock Markets",
     address: null,
     symbol: "-",
-    url: " ", // pending to add url https://hashlock.markets
+        url: "https://hashlock.markets",
     description: "Hashlock Markets is an RFQ-based DEX where users create swap intents, market makers submit sealed bids, and winning quotes settle non-custodially through HTLC atomic swaps",
     chain: "Ethereum",
     logo: `${baseIconsUrl}/hashlock-markets.jpg`,
-    audits: "0",
+        audits: "1",
     gecko_id: null,
     cmcId: null,
     tags: ["RFQ"],
@@ -2430,6 +2430,7 @@ const data6: Protocol[] = [
     module: "dummy.js",
     twitter: "HashlockMarkets",
     github: ["Hashlock-Tech"],
+        audit_links: ["https://github.com/Hashlock-Tech/hashlock-markets/tree/main/contracts/audit"],
     dimensions: {
       dexs: "hashlock-markets",
     },
